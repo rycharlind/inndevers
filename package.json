@@ -1,0 +1,35 @@
+{
+  "name": "react-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "Ryan Lindbeck",
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "body-parser": "^1.4.3",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.24.0",
+    "express": "^4.13.4",
+    "file-loader": "^0.9.0",
+    "font-awesome": "^4.6.3",
+    "font-awesome-webpack": "0.0.4",
+    "less": "^2.7.1",
+    "method-override": "^2.1.3",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.1.1",
+    "node-sass": "^3.8.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "sass-loader": "^4.0.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
+  }
+}

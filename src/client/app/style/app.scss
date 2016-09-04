@@ -1,0 +1,75 @@
+$red:rgb(244, 67, 54);
+$green:rgb(76, 175, 80);
+$blue:rgb(33, 150, 243);
+$yellow:rgb(255, 235, 59);
+$orange:rgb(255, 152, 0);
+$purple:rgb(103, 58, 183);
+$brown:rgb(121, 85, 72);
+$cyan:rgb(0, 188, 212);
+
+html, body {
+	margin:0;
+	padding:0;
+}
+
+.inn-grid {
+	margin:0;
+	padding:0;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	.inn-cell {
+		display:flex;
+		height:300px;
+		margin:0;
+		width:33.3333333333%;
+
+		.inn-logo {
+			margin:auto;
+			width:200px;
+			height:123px;
+		}
+		.fa {
+			margin:auto;
+			font-size:78px;
+			color:#fff;
+		}
+
+		// Tablets
+		@media (max-width: 839px) and (min-width: 480px) {
+			width:50%;
+		}
+
+		// Phones
+		@media (max-width: 479px) {
+			width:100%;
+		}
+	}
+}
+
+
+// Background Colors 
+.bg-red {
+	background-color:$red;
+}
+.bg-green {
+	background-color:$green;
+}
+.bg-blue {
+	background-color:$blue;
+}
+.bg-yellow {
+	background-color:$yellow;
+}
+.bg-orange {
+	background-color:$orange;
+}
+.bg-purple {
+	background-color:$purple;
+}
+.bg-brown {
+	background-color:$brown;
+}
+.bg-cyan {
+	background-color:$cyan;
+}

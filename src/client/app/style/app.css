@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.inn-grid {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .inn-grid .inn-cell {
+    display: flex;
+    height: 300px;
+    margin: 0;
+    width: 33.3333333333%; }
+    .inn-grid .inn-cell .inn-logo {
+      margin: auto;
+      width: 200px;
+      height: 123px; }
+    .inn-grid .inn-cell .fa {
+      margin: auto;
+      font-size: 78px;
+      color: #fff; }
+    @media (max-width: 839px) and (min-width: 480px) {
+      .inn-grid .inn-cell {
+        width: 50%; } }
+    @media (max-width: 479px) {
+      .inn-grid .inn-cell {
+        width: 100%; } }
+
+.bg-red {
+  background-color: #f44336; }
+
+.bg-green {
+  background-color: #4caf50; }
+
+.bg-blue {
+  background-color: #2196f3; }
+
+.bg-yellow {
+  background-color: #ffeb3b; }
+
+.bg-orange {
+  background-color: #ff9800; }
+
+/*# sourceMappingURL=app.css.map */
