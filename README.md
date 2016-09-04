@@ -1,7 +1,4 @@
-# inndevers
+# Inndevers Public Web App (React.JS + Webpack)
 
 
-## Need the following installed
-
-
-`npm install' to download the node dependencies.
+## You will need the following installed
