@@ -1,0 +1,10 @@
+/* .vitepress/theme/custom.css */
+:root {
+    --vp-c-brand: #2196F3;
+    --vp-c-brand-light: #6ec6ff;
+    --vp-button-brand-bg: #9c27b0;
+}
+
+.vp-doc h1 {
+    margin-bottom: 24px;
+}
