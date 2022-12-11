@@ -397,7 +397,7 @@ As you can see from the above results, we joined our
 `userDf`, `postDf` and `commentDf` to create a single DataFrame
 and printed the results to the console.
 
-## Retrospective
+## Conclusion
 
 We've learned how to use [sbt](https://www.scala-sbt.org/) to create a [Scala](https://www.scala-lang.org/) based data application using the 
 [Apache Spark](https://spark.apache.org/) framework to read `csv` files into DataFrames, join them up and produce a unified output.  Spark's DataFrame API is a powerful tool for data engineering operations. 
